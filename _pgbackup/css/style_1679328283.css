@@ -148,8 +148,8 @@ body {
     font-size: 14px;
     line-height: 2.14286;
     font-weight: 400;
-    color: #888888;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #404044;
     -webkit-text-size-adjust: none;
     -webkit-font-smoothing: subpixel-antialiased;
 }
@@ -164,7 +164,7 @@ h6,
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 500;
-    color: #404044;
+    color: #ffffff;
 }
 
 h1 a,
@@ -772,8 +772,9 @@ a[href*='mailto'] {
 }
 
 .image-left-side {
-    max-width: 80%;
+    max-width: 70%;
     margin: 40px auto 0 auto;
+    z-index: -2;
 }
 
 @media (min-width: 992px) {
@@ -4624,7 +4625,7 @@ html.boxed body {
 }
 
 .text-primary {
-    color: #505cfd !important;
+    color: #e9dc00 !important;
 }
 
 .text-gray-dark {
@@ -4643,7 +4644,7 @@ html.boxed body {
     text-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
     font-family: "Poppins", sans-serif;
     line-height: 1;
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.15);
     text-align: center;
     z-index: -1;
     padding-top: 20px;
@@ -5592,7 +5593,7 @@ html [class*='section-'].section-bottom-0 {
     left: 0;
     width: 150px;
     height: 3px;
-    background-color: #505cfd;
+    background-color: #e9dc00;
     display: none;
 }
 
@@ -5620,7 +5621,7 @@ html [class*='section-'].section-bottom-0 {
     width: 150px;
     height: 3px;
     display: none;
-    background-color: #505cfd;
+    background-color: #e9dc00;
 }
 
 @media (min-width: 1200px) {
@@ -9014,5 +9015,6 @@ html.rd-navbar-fixed-linked .page {
     left: 19.5%;
 }
 
-
-.divider {}
+.divider {
+    margin-top: 40px;
+}

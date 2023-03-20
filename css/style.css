@@ -145,7 +145,7 @@ html p a:hover {
 /* * Typography */
 body {
     font-family: "Montserrat", serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 2.14286;
     font-weight: 400;
     color: #ffffff;
@@ -5702,6 +5702,7 @@ html:not(.lt-ie10) .not-animated {
 
 .fadeInUp {
     animation-name: fadeInUp;
+    font-family: 'Montserrat', sans-serif;
 }
 
 @keyframes fadeInDown {
